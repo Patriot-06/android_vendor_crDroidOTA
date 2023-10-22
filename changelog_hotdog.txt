@@ -3,6 +3,63 @@ Build type: Weekly
 Device: OnePlus 7T Pro (hotdog)
 Device maintainer: ShEV (ShevT)
 
+===== 20231018 =====
+* Hotfix for performance issues v2
+* Some other minor changes
+
+===== 20231017 =====
+* Hotfix for performance issues
+
+===== 20231016 =====
+* Remove Lineage Health HAL
+* fix headsup regression preventing boot for some users
+* Dialer: Bring back merge calls
+* Settings: Add app lock settings for alternate security settings provider
+* Some other changes
+
+===== 20231011 =====
+* Initial crDroid 9.10
+* Updated to October 2023 security patches
+* Kernel 4.14.327
+* Kernel: kernelsu: Update to version 0.6.9
+* Kernel: Disable some OPlus features
+* Kernel: Disable more debugs
+* Kernel: Added last_kmsg
+* Device: audio: Remove post process for voice_call"
+* Device: audio: Add AC4 Dolby decoder
+* Device: audio: Fix EAC3 JOC sampling rates
+* Device: audio: Sync supported for compress_passthrough with stock 
+* Device: audio: Other audio changes
+* Device: Changes in the perf subsystem
+* addons: Clean up unused themed icons
+* SystemUI: Fix Reticker not appearing for some apps
+* Updated translations
+* Some other changes
+
+===== 20231003 =====
+* Kernel 4.14.326
+* Launcher3: Quickspace: Rewrite all the greetings
+* Launcher3: Quickspace: Other Improvements
+* addons: Drop fonts greater than 1 Mb (LGSmartGothic, Rosemary, Klyukin)
+* addons: Import Plumpy, Aurora, Gradicon, Lorn iconpack from Iconify
+* crdroid: Fix search indexing for battery and notification light settings
+* crdroid: Fix clipping in app list layout 
+* crdroid: Readd statusbar brightness control
+* Settings: fixup! Wi-Fi timeout feature
+* Messaging: Fix input text box background on light mode
+* Messaging: support notification channels
+* SystemUI: Less boring headsup enhancements and fixes
+* LineageParts: Add MD3 styling to buttons
+* Contacts: MD3-ify
+* Contacts: Fix LetterTileDrawable for all languages
+* Contacts: Fix navigation bar theming
+* Contacts: Set Notification Channel for Sending Parsing Notification
+* GameSpace: Add missing permission usage for Danmaku service
+* GameSpace: Import new game illustration from motorola
+* GameSpace: Fix notification listener service
+* Updated translations
+* Some other changes
+
 ===== 20230927 =====
 * September 2023 Security update 2
 * Fixes and improvements in the stock keyboard
